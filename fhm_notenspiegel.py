@@ -13,16 +13,16 @@ window.title("FHM Notenspiegel Tool")
 window.geometry('500x200')
 
 # Labels fuer alle Sachen
-lbltxtURL = Label(window, text="URL: ")
+lbltxtURL = Label(window, text="URL: https://www3.primuss.de/cgi-bin/sesam/index.pl?FH=fhm&Session=r2xgqk8i6x5d5j24wcz00ghnsvdrdg26s16d4cuih90q7a9eim&User=91883488018&Portal=1")
 lbltxtURL.grid(column=0, row=0)
 
-lbl = Label(window, text="Studiengang: ")
+lbl = Label(window, text="Studiengang:IC")
 lbl.grid(column=0, row=2)
 
-lbl = Label(window, text="Prüfung: ")
+lbl = Label(window, text="Prüfung: 187")
 lbl.grid(column=0, row=3)
 
-lbl = Label(window, text="B/M: ")
+lbl = Label(window, text="B/M: B")
 lbl.grid(column=0, row=4)
 
 lbl = Label(window, text="Session: ")
